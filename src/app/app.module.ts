@@ -8,6 +8,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { CreateAccountComponent } from './create-account/create-account.component';
 import { AppRoutingModule } from './app-routing-module';
+import { DisplayAccountComponent } from './display-account/display-account.component';
 
 
 
@@ -15,7 +16,8 @@ import { AppRoutingModule } from './app-routing-module';
   declarations: [
     AppComponent,
     HeaderComponent,
-    CreateAccountComponent
+    CreateAccountComponent,
+    DisplayAccountComponent
   ],
   imports: [
     BrowserModule,
